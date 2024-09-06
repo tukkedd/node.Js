@@ -5,9 +5,20 @@ console.log(path.sep);
 
 // unir rutas con path.join
 
-const filepath = path.join('/contents', 'subfolder', 'test.txt')
+// te crea la ruta
+const filepath = path.join('contents', 'subfolder', 'test.txt')
 console.log(filepath);
 
-const base = path.base('/tmp/secret/archive.txt')
+// busca el archivo
+const base = path.basename('/tmp/secret/archive.txt')
 console.log(base);
+
+//remueve la extension
+const filename = path.basename('/tmp/secret/archive.txt', 'txt')
+console.log(filename);
+
+
+//te da la extension
+const extension = path.extname('image.jpg')
+console.log(extension);
 
