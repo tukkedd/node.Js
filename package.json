@@ -22,6 +22,10 @@
   },
   "homepage": "https://github.com/tukkedd/node.Js#readme",
   "dependencies": {
+    "curso-node": "file:",
     "picocolors": "1.1.0"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
   }
 }
